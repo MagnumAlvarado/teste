@@ -1,0 +1,146 @@
+/*====  RESET ============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+   background: linear-gradient(180deg, #7A57FD 0%, #6135D7 100%);
+    height: 302px;
+    width: 2218px;
+    left: 0px;
+    top: 1121px;
+    border-radius: 0px;
+    
+}
+
+/*=== NAVIGATION ====== */
+nav {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav .image {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 121px;
+  top: 104px;
+  background: url(image.png);
+      }
+  
+  #home .image img,
+  #home .image::before {
+    border-radius: 0.25rem;
+  }
+  
+  #home .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+  
+  #home .text h1 {
+    margin-bottom: 1rem;
+  }
+  
+  #home .text p {
+    margin-bottom: 2rem;
+  }
+
+  nav .getstart {
+    position: absolute;
+    width: 165px;
+    height: 48px;
+    top:  2rem;
+    left: 1528px;
+
+    background-color: #FFD74F;
+    box-shadow: 1px 3px 11px -3px rgba(255, 231, 150, 0.45);
+    border-radius: 4px;
+    }
+
+    nav .logo {
+      position: absolute;
+      width: 2065px;
+      height: 496px;
+      top:  2rem;
+      right: 0px;
+  
+      fonte-family: Open Sans;
+      fonte-style: normal;
+      fonte-weight: normal;
+      fonte-height: 16px;
+      line-height: 191.68%;
+      color: white;
+    }
+
+     nav .getstart {
+    position: absolute;
+    width: 165px;
+    height: 48px;
+    top:  2rem;
+    left: 1528px;
+
+    background-color: #FFD74F;
+    box-shadow: 1px 3px 11px -3px rgba(255, 231, 150, 0.45);
+    border-radius: 4px;
+    }
+
+    nav .corporativo {
+      position: absolute;
+      width: 165px;
+      height: 496px;
+      top:  27rem;
+      left: 800px;
+      text-align: center;
+  
+      fonte-family: Open Sans;
+      fonte-style: normal;
+      fonte-weight: normal;
+      fonte-height: 20px;
+      line-height: 191.68%;
+      color:white;
+    }
+    
+    nav .corporativo1 {
+      position: absolute;
+      width: 165vh;
+      height: 486vw;
+      top:  30rem;
+      left: 800px;
+  
+      fonte-family: Open Sans;
+      fonte-style: normal;
+      fonte-weight: normal;
+      fonte-height: 16px;
+      line-height: 191.68%;
+      color:
+    }
+
+  /*====  FOOTER ============================ */
+footer {
+  background: #200E64;
+}
+
+.btn{
+  padding: 10px 8px;
+  width: 50px;
+  color: #ffff;
+  background: #209915;
+  boder: 1px solid #5555;
+  border-radius: ;
+}
